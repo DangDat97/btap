@@ -1,0 +1,274 @@
+.e1-shop{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+
+.e1-shop > div > div{
+  margin-top: 10px;
+  color: #afafaf;
+  font-size: 22px;
+}
+
+
+.e1-shop h1{
+  font-family: "Libre Baskerville",sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.35em;
+  text-decoration: none;
+  text-transform: none;
+  color: aliceblue;
+}
+
+.e1-shop a{
+  color: #afafaf;
+}
+
+.e1-shop a:hover{
+  color: #fff;
+}
+.post-1-shop img{
+  border:1px solid #ddd;
+}
+
+.convert{
+  margin-bottom: 30px;
+}
+
+.convert .col-4{
+  text-align: left;
+}
+
+.convert .col-4 button{
+  border: 1px solid #afafaf;
+  background-color: #fff;
+  padding: 6px 10px;
+  margin: 0px 8px 0px 0px;
+}
+.convert .col-4 button:hover{
+  border: 1px solid #242424;
+  background-color: #242424;
+  color: #fff;
+}
+
+.convert .col-4 span{
+  font-size: 32px;
+  line-height: normal;
+}
+
+.convert .col-8{
+  text-align: right;
+}
+.convert select{
+  padding: 16px 24px;
+  border: none;
+  border-radius: none;
+  background-color: #d7d6d5;
+  color: #868686;
+}
+
+.post-1-shop > div{
+  border-bottom: 1px solid #afafaf;
+  padding-bottom: 56px;
+  margin-bottom: 56px;
+}
+
+
+.post-1-shop .col-9{
+  text-align: left;
+  padding-left: 32px;
+}
+
+.post-1-shop h1{
+  font-size: 16px ;
+  color: #242424;
+}
+.post-1-shop span{
+  color: gold;
+}
+.post-1-shop p{
+  margin-top: 16px;;
+}
+.post-1-shop button{
+  margin-top: 16px;;
+  padding: 16px 24px;
+  border: 1px solid #afafaf;
+  text-transform: uppercase;
+}
+.post-1-shop button:hover{
+  border: 1px solid #242424;
+  background-color: #242424;
+  color: #fff;
+}
+
+.post-1-shop h1:hover{
+  color: #AF7F66;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.table-1{
+  background-color: #282828;
+  padding: 50px;
+  text-align: left;
+}
+
+.table-1 h1{
+  font-family: "Libre Baskerville",sans-serif;
+  color: #fff;
+  font-size: 32px;
+}
+.table-1 input{
+  padding: 16px;
+  background-color: #343333;
+  border: none;
+  border-radius: none;
+}
+.table-1 input:hover{
+  border: none;
+  border-radius: none;
+}
+.table-1 button{
+  padding: 8px 16px;
+  border: none;
+
+}
+.table-1 button:hover{
+  background-color: #AF7F66;
+  color: #fff;
+}
+
+.table-1 span{
+line-height: inherit;
+}
+
+.table-6,
+.table-5,
+.table-4,
+.table-3,
+.table-2{
+  margin-top: 30px;
+  padding: 50px;
+  text-align: left;
+  background-color: #f8f7f6;
+}
+.table-6 h1,
+.table-5 h1,
+.table-4 h1,
+.table-3 h1,
+.table-2 h1{
+  font-family: "Libre Baskerville",sans-serif;
+  font-size: 32px;
+  color: #242424;
+}
+
+.table-2 > ul{
+  padding-left: 20px;
+}
+
+.table-2 > ul >li{
+  list-style: circle;
+  font-size: 16px;
+}
+.table-2 > ul >li > a:hover{
+  color: #AF7F66;
+}
+
+
+.table-3 h3{
+  font-size: 16px;
+  color: #242424;
+}
+
+caption{
+  font-size: .813rem;
+  letter-spacing: .1em;
+  padding-bottom: 0.5em;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+#calendar_wrap{
+  padding-top: 20px;
+}
+table{
+  width: 100%;
+}
+.wp-calendar-table th,
+.wp-calendar-table th,
+.wp-calendar-table td,
+.wp-calendar-table td{
+  font-size: 1em!important;
+  line-height: 1.5em;
+  font-weight: 400!important;
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 2px;
+  border: none!important;
+  background-color: transparent!important;
+  width: 14.2857%;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wp-block-calendar td, .widget_calendar td {
+  line-height: 2em;
+  padding: 0;
+}
+.table-5 .col{
+  text-transform: uppercase;
+  padding: 8px 10px;
+  border: 1px solid #d7d6d5;
+  margin: 0px 5px 5px 0px;
+}
+
+.table-5 .col:hover{
+  background-color: #AF7F66;
+  border: none;
+  color: #fff;
+  border: 1px solid #AF7F66;
+}
+.table-6 p{
+  color: #afafaf;
+}
+.table-6 a{
+  color: #242424;
+}
+.table-6 a:hover{
+  color: #AF7F66;
+}
+
+.e-plush-shop{
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.e-plush-shop > .col-4{
+  padding-left: 40px;
+}

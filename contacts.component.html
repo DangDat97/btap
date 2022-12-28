@@ -1,0 +1,76 @@
+<main class="section">
+  <div class="container-fuild">
+    <div class="e1-contact">
+      <div>
+        <h1>Contacts</h1>
+        <div style="display:inline-flex">
+            <a class="mr-5" routerLink="/">Home /</a>
+            <p>Contacts</p>
+        </div>
+    </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="e2-contact">
+      <div class="row">
+        <div class="col-3">
+          <div>
+            <h1>Address</h1>
+            <p>12 Van Dyke St,<br>
+            Brooklyn, NY 11231</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div>
+            <h1>Phone</h1>
+            <a href="#">1 (800) 123-4567</a><br>
+            <a href="#">1 (800) 123-4568</a>
+          </div>
+        </div>
+        <div class="col-3">
+          <div>
+            <h1>Mail</h1>
+            <a href="#">sales@yoursite.com</a><br>
+            <a href="#">hr@yoursite.com</a>
+          </div>
+        </div>
+        <div class="col-3">
+          <div>
+            <h1>Hours</h1>
+          <p>Mon - Fri: 8 AM - 6 PM<br>
+            Sat: 9 AM - 4 PM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="e3-contact">
+      <form action="#">
+        <h1>Drop a Line</h1>
+        <div class="row">
+          <div class="col">
+            <input type="text" placeholder="Name">
+          </div>
+          <div class="col">
+            <input type="text" placeholder="Email">
+          </div>
+          <textarea name="" id="" rows="10" placeholder="Message"></textarea>
+          <div style="display:flex">
+            <input type="checkbox">
+            <p>I have read and agree to the Privacy Policy</p>
+          </div>
+          <div style="text-align:left;">
+            <button>Send Message</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="container-fuild">
+    <div id="map" style="padding-top: 80px;">
+      <div *ngIf="apiLoaded | async">
+        <google-map height="500px"
+                    width="1903px"></google-map>
+      </div>
+    </div>
+  </div>
+</main>

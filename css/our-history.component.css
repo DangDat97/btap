@@ -1,0 +1,195 @@
+.e1-our-history{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.e1-our-history > div > div{
+    margin-top: 10px;
+    color: #afafaf;
+    font-size: 22px;
+}
+
+
+.e1-our-history h1{
+    font-family: "Libre Baskerville",sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.35em;
+    text-decoration: none;
+    text-transform: none;
+    color: aliceblue;
+}
+
+.e1-our-history a{
+    color: #afafaf;
+}
+
+.e1-our-history a:hover{
+    color: #fff;
+}
+
+.e2-our-history{
+    padding-top: 80px;
+
+}
+
+.e2-our-history h1{
+    font-family: "Libre Baskerville",sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.35em;
+    text-decoration: none;
+    text-transform: none;
+    color: #242424;
+}
+
+.text-e2{
+    padding-top: 50px;
+    padding-left: 100px;
+    text-align: left;
+}
+
+.e3-our-history {
+    padding-top: 80px;
+
+}
+
+.e3-our-history > div{
+    padding: 60px 0px;
+    background-color: #F8F7F6;
+}
+
+.e3-our-history h1{
+    font-family: "Libre Baskerville",sans-serif;
+    font-size: 38px;
+}
+.e3-our-history p{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #242424;
+}
+
+.e4-our-history{
+    padding-top: 80px;
+}
+
+.e4-our-history > div{
+    padding: 0% 25%;
+}
+
+.e4-our-history h1{
+    font-family: "Libre Baskerville",sans-serif;
+    font-size: 2.875rem;
+    color: #242424;
+}
+
+.e4-our-history p{
+    margin-top: 30px;
+    font-size: 12px ;
+}
+
+.e5-our-history {
+    padding-top: 30px;
+}
+
+.e5-our-history img{
+    height: 345px;
+    width: 100%;
+}
+
+.e5-our-history h1{
+    font-family: "Libre Baskerville",sans-serif;
+    font-size: 22px;
+}
+
+.e5-our-history > div > div{
+    position: relative;
+}
+
+.text-bl{
+    text-align: left;
+    position: absolute;
+    left: 30px;
+    bottom: 10px;
+    color: #fff;
+}
+
+.form-our-history{
+    text-align: left;
+    padding-right: 120px;
+}
+
+.form-our-history input{
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+.form-our-history .col:first-child{
+    padding-right: 16px;
+}
+.form-our-history textarea{
+    padding: 8px;
+}
+
+.e6-our-history{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.e6-our-history h1 {
+    font-family: "Libre Baskerville",sans-serif;
+    font-size: 30px;
+    color: #242424;
+    padding-bottom: 16px;
+}
+
+form textarea,
+form .col > input{
+  border-radius: 0px;
+  width: 100%;
+  border: none;
+  font-size: 14px;
+  padding: 16px;
+}
+
+form textarea,
+form input{
+  color: #868686;
+  background-color: #e9e8e7;
+  border-color: #e9e8e7;
+}
+
+.form-our-history .input-check{
+  margin: 0px;
+}
+
+.form-our-history p{
+  margin-left: 8px;
+}
+
+.form-our-history .col-12{
+  padding: 8px 0px
+}
+.form-our-history button{
+  text-transform: uppercase;
+  padding: 8px 14px;
+  border-radius: 0px;
+  background-color: #242424;
+  color: white;
+}
+
+.form-our-history button:hover{
+  background-color: #ffffff;
+  color: black;
+}
+
+.form-our-history .row textarea{
+  padding: 16px;
+}

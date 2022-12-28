@@ -1,0 +1,197 @@
+<section class="section main">
+    <div class="container-fuild">
+        <div class="slider-product">
+            <div>
+                <h1>{{product.title}}</h1>
+                <div>
+                    <a href="/">Home  /</a>
+                    <a href="#">Shop  /.../</a>
+                    <p>{{product.title}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section main">
+    <div class="container">
+        <div class="element1-product">
+            <div>
+                <div></div>
+                <img src="./assets/images/{{product.images}}" alt="#">
+                <span></span>
+            </div>
+            <div>
+                <div class="element1-product-text">
+                    <div>
+                        <h4 [ngClass]="(product.sale=='')?'':'line-through'">${{product.price}}</h4>
+                        <h4 *ngIf="product.sale !=''">${{product.sale}}</h4>
+                    </div>
+                    <div>
+                        <p>{{product.description}}</p>
+
+                    </div>
+
+                    <div class="button">
+                        <input type="number" value="{{numCart}}" >
+                        <div class="num-amount">
+                            <span class="material-symbols-outlined" (click)="plushNum()">expand_less</span>
+                            <span class="material-symbols-outlined" (click)="minusNum()">expand_more</span>
+                        </div>
+                        <button>
+                            <span class="material-symbols-outlined">shopping_cart</span> <p>buy now</p>
+                        </button>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 icon">
+                            <div class="line">  </div>
+                            <p>compare</p>
+                            <span class="material-symbols-outlined">autorenew</span>
+                        </div>
+                        <div class="col-4 icon">
+                            <div class="line">  </div>
+                            <p>add </p>
+                            <span class="material-symbols-outlined">favorite</span>
+                        </div>
+                    </div>
+                    <div class="cate">
+                        <span>Category: <a href="#"><i>{{product.category}}</i> </a></span>
+                        <span>Tags: <a href="#"><i>{{product.brand}}</i></a> </span>
+                        <span>Product ID: <a href="#"><i>{{product.id}}</i></a>  </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section main">
+    <div class="container">
+        <div class="element2-product">
+            <ul>
+                <li [ngClass]="(textE3=='des')?'des active':'des'"   (click)="textElement3('des')">Description</li>
+                <li [ngClass]="(textE3=='add')?'add active':'add '"  (click)="textElement3('add')">Additional information</li>
+                <li [ngClass]="(textE3=='reviews')?'reviews active':'reviews'" (click)="textElement3('reviews')">Reviews (0)</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="section main">
+    <div class="container">
+        <div class="element3-product" id="element3-product">
+            <div *ngIf="textE3=='des'" id="des">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate earum provident illum. Animi, consequuntur facere. Ducimus perferendis illum voluptas. Quidem corporis repellendus tempore doloribus laboriosam pariatur molestiae reiciendis commodi esse.</p>
+            </div>
+            <div *ngIf="textE3=='add'" id="add">
+                <div>
+                    <h1>Additional information</h1>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>Water Resistance</th>
+                                <td><i>High</i></td>
+                            </tr>
+                            <tr>
+                                <th>Band Color</th>
+                                <td><i>Brown</i></td>
+                            </tr>
+                            <tr>
+                                <th>Band Material</th>
+                                <td><i>Leather</i></td>
+                            </tr>
+                            <tr>
+                                <th>Watch Movement Type</th>
+                                <td><i>Quartz</i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div >
+            <div *ngIf="textE3=='reviews'" id="reviews">
+                <div>
+                    <h1>Reviews</h1>
+                    <p>There are no reviews yet.</p>
+                </div>
+                <div>
+                    <h2>Be the first to review “White Gold Ring in Topaz and Diamonds”</h2>
+                    <p>Your email address will not be published. Required fields are marked *</p>
+                    <div>
+                        <form action="#" method="get">
+                            <div>
+                                <label for="name">Name *</label>
+                                <input type="text" id="name">
+                            </div>
+                            <div>
+                                <label for="email">Email *</label>
+                                <input type="text" id="email">
+                            </div>
+                            <div>
+                                <label for="rating">Your rating *</label>
+                                <div style="display:flex">
+                                  <span class="material-symbols-outlined text-warning">star</span>
+                                  <span class="material-symbols-outlined text-warning">star</span>
+                                  <span class="material-symbols-outlined text-warning">star</span>
+                                  <span class="material-symbols-outlined text-warning">star</span>
+                                  <span class="material-symbols-outlined text-warning">star</span>
+                                </div>
+
+                            </div>
+                            <div>
+                                <label for="Review">Review *</label>
+                                <textarea name="review" id="review" cols="30" rows="10"></textarea>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" name="box" id="box">
+                                <p>By using this form you agree with the storage and handling of your data by this website. *</p>
+                            </div>
+                            <button type="submit">submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section main">
+    <div class="container">
+        <div class="element4-product">
+            <h2>Related products</h2>
+            <ul>
+                <li class="col">
+                    <div>
+                        <div class="image-product"><img src="./assets/images/product-1-1.png" alt="#"></div>
+                        <div class="text-product">
+                            <h1>Fastrack Analog Golden Dial Men’s Watch</h1>
+                            <p><u class="pu">$450.00</u>   $430.00</p>
+                            <div class="add-cart">
+                                <button>Buy now</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="col">
+                    <div>
+                        <div class="image-product"><img src="./assets/images/product-1-2.png" alt="#"></div>
+                        <div class="text-product">
+                            <h1>Gauna Red Lawson Hand Watch</h1>
+                            <p><u class="pu">$45.000</u>   $31.99</p>
+                            <div class="add-cart">
+                                <button>Buy now</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="col">
+                    <div>
+                        <div class="image-product"><img src="./assets/images/product-1-3.png" alt="#"></div>
+                        <div class="text-product">
+                            <h1>Sonata Analog gold dial women's watch</h1>
+                            <p> $290.00</p>
+                            <div class="add-cart">
+                                <button>Buy now</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>

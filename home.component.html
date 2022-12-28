@@ -1,0 +1,202 @@
+<main>
+  <section class="section main">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/images/slider1.webp" class="d-block" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/images/slider1_slide3_01.png" class="d-block" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/images/slider1_slide2_01.png" class="d-block" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="material-symbols-outlined icon-slide">arrow_back_ios</span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="material-symbols-outlined icon-slide">arrow_forward_ios</span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <section class="section main">
+    <div class="container first">
+            <h1>The Lawson Collection</h1>
+            <p>We are happy to introduce the new Lawson Collection. These are three quartz models designed with simplicity and elegance kept in mind. They come in different sizes and colors, and all feature a stainless steel back — leaving enough space for a personalized engraving. The engraving service is complimentary with any watch from the Lawson series.</p>
+    </div>
+  </section>
+  <section class="section main">
+    <div class="container-fuild after-first">
+        <ul>
+            <li *ngFor="let p of products" class="col">
+                <div>
+                    <div class="image-product"><img src="./assets/images/{{p.images}}" alt="#"></div>
+                    <div class="text-product">
+                        <h1>{{p.title}}</h1>
+                        <p>${{p.price}}</p>
+                        <div class="add-cart">
+                          <button>Buy now</button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+  </section>
+  <section class="section main">
+    <div class="container">
+        <div class="element1">
+            <div class="e1-left">
+                <div>
+                    <h1>Swiss Essence</h1>
+                    <p>The first association that comes to one’s mind with the phrase “a good wristwatch” is naturally a one made somewhere in Switzerland. Do you want to know what makes Swiss watches stand out?</p>
+                    <button class="bt-black">learn more</button>
+                </div>
+            </div>
+            <div class="e1-right">
+                <img src="./assets/images/element-1.webp" alt="">
+            </div>
+        </div>
+    </div>
+  </section>
+  <section class="section main">
+    <div class="container">
+        <div class="element2">
+            <div class="e2-left">
+                <div>
+                    <div class="e2-text">
+                        <p>01.</p>
+                        <h1>Sapphire Crystal</h1>
+                        <p>Known for obtaining a remarkable hardness (nearly as hard as a diamond). Has a high scratch resistance which makes it a perfect material for wristwatches.</p>
+
+                    </div>
+                    <div class="e2-text text-2">
+                        <p>02.</p>
+                        <h1>Swiss Ronda Movement</h1>
+                        <p>Run by the vibration of a quartz crystal (32,786 times per second) under current to keep possibly accurate time.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="e2-mid">
+                <img src="./assets/images/element-2.webp" alt="">
+            </div>
+            <div class="e2-left">
+                <div>
+                    <div class="e2-text">
+                        <p>03.</p>
+                        <h1>316L Stainless Steel</h1>
+                        <p>The watch case is made of extra low carbon steel that is often used in surgical instruments and marine appliances thanks to its high corrosion resistance.</p>
+                    </div>
+                    <div class="e2-text text-2">
+                        <p>04.</p>
+                        <h1>Italian Leather Straps</h1>
+                        <p>The band is made of high-grade Italian eco-leather with a soft nubuck lining for extra comfort. Obtains excellent wearing qualities.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section class="section main">
+    <div class="container">
+        <div class="element3">
+            <div class="e3-left">
+                <img src="./assets/images/element-3.webp" alt="">
+            </div>
+            <div class="e3-right">
+                <div>
+                    <h1>Designed for Those Who Evade Limits</h1>
+                    <p>Attention to details is always a good feature. We couldn’t think of any better present for our 5th anniversary than a pair of exclusive watches from the Lawson collection. Every time I look at my watch I think of her and feel she thinks of me.</p>
+                    <button class="bt-black">read our story</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section class="section main">
+    <div class="container-fuild">
+        <div class="element4">
+            <h1>Our Bestsellers</h1>
+        </div>
+    </div>
+  </section>
+  <section class="section main">
+    <div class="container-fuild element5">
+        <ul>
+            <li class="col">
+                <div>
+                    <div class="image-product"><img src="./assets/images/product-1-1.png" alt="#"></div>
+                    <div class="text-product">
+                        <h1>Fastrack Analog Golden Dial Men’s Watch</h1>
+                        <p><u class="pu">$450.00</u>   $430.00</p>
+                        <div class="add-cart">
+                            <button>Buy now</button>
+                        </div>
+                    </div>
+
+                </div>
+            </li>
+            <li class="col">
+                <div>
+                    <div class="image-product"><img src="./assets/images/product-1-2.png" alt="#"></div>
+                    <div class="text-product">
+                        <h1>Gauna Red Lawson Hand Watch</h1>
+                        <p><u class="pu">$45.000</u>   $31.99</p>
+                        <div class="add-cart">
+                            <button>Buy now</button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="col">
+                <div>
+                    <div class="image-product"><img src="./assets/images/product-1-3.png" alt="#"></div>
+                    <div class="text-product">
+                        <h1>Sonata Analog gold dial women's watch</h1>
+                        <p> $290.00</p>
+                        <div class="add-cart">
+                            <button>Buy now</button>
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="col">
+                <div>
+                    <div class="image-product"><img src="./assets/images/product5-4.webp" alt="#"></div>
+                    <div class="text-product">
+                        <h1>Sonata Analog gold dial women's watch</h1>
+                        <p> $290.00</p>
+                        <div class="add-cart">
+                            <button>Buy now</button>
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+  </section>
+  <section class="section main">
+    <div class="container">
+        <div class="element6">
+            <a href="#">Show all</a>
+        </div>
+    </div>
+  </section>
+</main>
+
+
+
+
+

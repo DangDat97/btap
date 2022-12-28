@@ -1,0 +1,96 @@
+<header class="section header">
+  <div class="container-fuild">
+    <div class="row">
+      <div class="col">
+        <ul class="nav">
+            <li>
+              <a routerLink="/">Home </a>
+            </li>
+            <li><a href="#">about <span class="material-symbols-outlined">expand_more</span></a>
+                    <div class="nav-column">
+                        <ul>
+                            <li><a routerLink="/our-history">our history</a></li>
+                            <li><a routerLink="/our-mission">our mission</a></li>
+                            <li><a routerLink="/team">team</a></li>
+                        </ul>
+                    </div>
+            </li>
+            <li><a routerLink="/shop">shop <span class="material-symbols-outlined">expand_more</span></a>
+                    <div class="nav-column">
+                        <ul>
+                            <li *ngFor="let c of category"><a routerLink="/product-category/{{c.base}}">{{c.name}}</a></li>
+                        </ul>
+                    </div>
+            </li>
+            <li><a routerLink="/all-posts">blog</a></li>
+        </ul>
+    </div>
+    <div class="col">
+        <img src="./assets/images/logo.png" alt="Logo">
+    </div>
+    <div class="col">
+      <div class="hright">
+        <ul>
+          <li> <a routerLink="/contacts">contacts</a>   </li>
+          <li> <a routerLink="/login"><span class="material-symbols-outlined">person</span>
+              <span class="text-hright">sign in</span> </a>  </li>
+          <li> <a href="#"><span class="material-symbols-outlined">local_mall</span>
+              <span class="text-hright">car</span>
+              </a> </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </div>
+</header>
+<router-outlet></router-outlet>
+<footer class="section footer">
+  <div class="container-fuild">
+      <div class="footer-e1">
+          <div>
+              <div class="f-left">
+                  <h1>Sign up for our newsletter to receive special offers, news and great sales notifications.</h1>
+                  <form action="#">
+                      <input type="text" placeholder="Email address">
+                      <button>subcribe</button>
+                  </form>
+              </div>
+              <div class="f-right">
+                  <div class="col">
+                      <h5>Links</h5>
+                      <ul>
+                          <li> <a routerLink="/">home</a></li>
+                          <li> <a routerLink="/all-posts">blog</a></li>
+                          <li> <a routerLink="/shop">shop</a></li>
+                      </ul>
+                  </div>
+                  <div class="col">
+                      <h5>info</h5>
+                      <ul>
+                          <li> <a routerLink="/team">team</a></li>
+                          <li> <a routerLink="/our-mission">our mission</a></li>
+                          <li> <a routerLink="/our-history">our history</a></li>
+                          <li> <a routerLink="/contact">contact</a></li>
+                      </ul>
+                  </div>
+                  <div class="col">
+                      <h5>socials</h5>
+                      <ul>
+                          <li> <a routerLink="#">instagram</a></li>
+                          <li> <a routerLink="#">pinterest</a></li>
+                          <li> <a routerLink="#">facebook</a></li>
+                          <li> <a routerLink="#">youtube</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="footer-e2">
+      <div>
+          <div>
+              <a href="#">Team 2</a> © 2022. All Rights Reserved.
+          </div>
+      </div>
+  </div>
+</footer>

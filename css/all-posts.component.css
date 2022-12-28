@@ -1,0 +1,238 @@
+.e1-all-posts{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+
+.e1-all-posts > div > div{
+  margin-top: 10px;
+  color: #afafaf;
+  font-size: 22px;
+}
+
+
+.e1-all-posts h1{
+  font-family: "Libre Baskerville",sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.35em;
+  text-decoration: none;
+  text-transform: none;
+  color: aliceblue;
+}
+
+.e1-all-posts a{
+  color: #afafaf;
+}
+
+.e1-all-posts a:hover{
+  color: #fff;
+}
+
+.e-plush-all-posts{
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.e-plush-all-posts > .col-4{
+  padding-left: 40px;
+}
+
+.post-1{
+  margin-top: 50px;
+}
+
+.post-1 a{
+  font-size: 24px;
+  color: #242424;
+  text-transform: uppercase;
+}
+.post-1 a:hover{
+  color: #AF7F66;
+}
+
+.post-1:first-child{
+  margin-top: 0px;
+
+}
+.post-1:first-child > .text-post{
+  background-color: #282828;
+  padding: 60px 80px;
+}
+
+.post-1:first-child > .text-post h1:hover{
+  color: #AF7F66;
+}
+.post-1:first-child > .text-post a{
+  color: #fff;
+}
+.post-1:first-child > .text-post a:hover{
+  color: #AF7F66;
+}
+
+.post-1:first-child > .text-post h1{
+  color: #fff;
+}
+
+.post-1{
+  border-bottom: 1px solid #d7d6d5;
+}
+
+
+.post-1 > .text-post{
+
+  padding: 60px 0px;
+  text-align: left;
+}
+
+.text-post .date{
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.text-post .date:hover{
+  color: #AF7F66;
+}
+
+.text-post h1{
+  font-family: "Libre Baskerville",sans-serif;
+  font-size: 34px;
+  color: #242424;
+  margin-bottom: 16px;
+}
+.text-post > div{
+  margin: 16px 0px;
+}
+
+.table-1{
+  background-color: #282828;
+  padding: 50px;
+  text-align: left;
+}
+
+.table-1 h1{
+  font-family: "Libre Baskerville",sans-serif;
+  color: #fff;
+  font-size: 32px;
+}
+.table-1 input{
+  padding: 16px;
+  background-color: #343333;
+  border: none;
+  border-radius: none;
+}
+.table-1 input:hover{
+  border: none;
+  border-radius: none;
+}
+.table-1 button{
+  padding: 8px 16px;
+  border: none;
+
+}
+.table-1 button:hover{
+  background-color: #AF7F66;
+  color: #fff;
+}
+
+.table-1 span{
+line-height: inherit;
+}
+
+.table-6,
+.table-5,
+.table-4,
+.table-3,
+.table-2{
+  margin-top: 30px;
+  padding: 50px;
+  text-align: left;
+  background-color: #f8f7f6;
+}
+.table-6 h1,
+.table-5 h1,
+.table-4 h1,
+.table-3 h1,
+.table-2 h1{
+  font-family: "Libre Baskerville",sans-serif;
+  font-size: 32px;
+  color: #242424;
+}
+
+.table-2 > ul{
+  padding-left: 20px;
+}
+
+.table-2 > ul >li{
+  list-style: circle;
+  font-size: 16px;
+}
+
+.table-3 h3{
+  font-size: 16px;
+  color: #242424;
+}
+
+caption{
+  font-size: .813rem;
+  letter-spacing: .1em;
+  padding-bottom: 0.5em;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+#calendar_wrap{
+  padding-top: 20px;
+}
+table{
+  width: 100%;
+}
+.wp-calendar-table th,
+.wp-calendar-table th,
+.wp-calendar-table td,
+.wp-calendar-table td{
+  font-size: 1em!important;
+  line-height: 1.5em;
+  font-weight: 400!important;
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 2px;
+  border: none!important;
+  background-color: transparent!important;
+  width: 14.2857%;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wp-block-calendar td, .widget_calendar td {
+  line-height: 2em;
+  padding: 0;
+}
+.table-5 .col{
+  text-transform: uppercase;
+  padding: 8px 10px;
+  border: 1px solid #d7d6d5;
+  margin: 0px 5px 5px 0px;
+}
+
+.table-5 .col:hover{
+  background-color: #AF7F66;
+  border: none;
+  color: #fff;
+  border: 1px solid #AF7F66;
+}
+.table-6 p{
+  color: #afafaf;
+}
+.table-6 a{
+  color: #242424;
+}
+.table-6 a:hover{
+  color: #AF7F66;
+}

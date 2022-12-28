@@ -1,0 +1,138 @@
+.e1-our-history{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+
+.e1-our-history > div > div{
+  margin-top: 10px;
+  color: #afafaf;
+  font-size: 22px;
+}
+
+
+.e1-our-history h1{
+  font-family: "Libre Baskerville",sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.35em;
+  text-decoration: none;
+  text-transform: none;
+  color: aliceblue;
+}
+
+.e1-our-history a{
+  color: #afafaf;
+}
+
+.e1-our-history a:hover{
+  color: #fff;
+}
+
+
+
+
+.bt1 + .bt2 {
+  margin-left:10px ;
+}
+
+/*main*/
+
+.mg{
+  margin: 100px 0px;
+}
+.text{
+  font-weight: 300;
+  color:gray;
+  font-size: 20px;
+  text-align: left;
+  padding-right: 80px;
+}
+.text >h1{
+  color: black;
+  font-family: "Libre Baskerville", sans-serif;
+  font-size: 38px;
+}
+.text > p{
+  font-size: 16px;
+}
+.bt1{
+  padding: 0.9em 1.7em;
+  border: 2px #d7d6d5 solid;
+  background-color: white;
+}
+.bt1:hover{
+  background-color: black;
+  color: white;
+}
+.bt1 > a {
+  text-decoration: none;
+  color: black;
+}
+.bt1:hover > a{
+  color: white;
+}
+.bt2{
+  padding: 0.9em 1.7em;
+  border: 2px #d7d6d5 solid;
+  background-color: black;
+}
+.bt2:hover{
+  background-color:#af7f66;
+  color: white;
+}
+.bt2 > a {
+  text-decoration: none;
+  color: white;
+}
+.bt2 > a:hover{
+  color: white;
+}
+.title{
+  background-color:#EBEBEB;
+  margin-top: 80px;
+}
+.title > h1 {
+  font-family: "Libre Baskerville", sans-serif;
+  font-size: 38px;
+  text-align: center;
+  color: black;
+  padding: 30px 0px 20px 0px ;
+}
+.title > p {
+  font-size: 22px;
+  color: #868686;
+  text-align: center;
+  padding-top: 20px;
+}
+.title >h6{
+  text-align: center;
+  color: black;
+  margin-top: 20px;
+}
+.logo div {
+  margin: 100px 0px;
+}
+.logo >div > img{
+  height: 81px;
+  width: 200px;
+}
+.text1 {
+  font-weight: 300;
+  color:gray;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 80px;
+}
+.text1 >h1{
+  color: black;
+  font-family: "Libre Baskerville", sans-serif;
+}
+.text1 > p{
+  font-size: 19px;
+}

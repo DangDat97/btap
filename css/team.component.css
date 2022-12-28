@@ -1,0 +1,103 @@
+.e1-team{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+
+.e1-team > div > div{
+  margin-top: 10px;
+  color: #afafaf;
+  font-size: 22px;
+}
+
+
+.e1-team h1{
+  font-family: "Libre Baskerville",sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.35em;
+  text-decoration: none;
+  text-transform: none;
+  color: aliceblue;
+}
+
+.e1-team a{
+  color: #afafaf;
+}
+
+.e1-team a:hover{
+  color: #fff;
+}
+.e2-team{
+  padding-top: 80px;
+
+}
+
+.e2-team h1{
+  font-family: "Libre Baskerville",sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.35em;
+  text-decoration: none;
+  text-transform: none;
+  color: #242424;
+}
+
+.text-e2{
+  padding-top: 50px;
+  padding-left: 100px;
+  text-align: left;
+}
+
+
+.e3-team{
+  padding-top: 80px;
+}
+
+.e3-team > div{
+  padding: 0% 15%;
+}
+
+.e3-team h1{
+  font-family: "Libre Baskerville",sans-serif;
+  font-size: 2.875rem;
+  color: #242424;
+}
+
+.e3-team p{
+  margin-top: 30px;
+  font-size: 16px ;
+}
+
+.e4-team {
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.e4-team img{
+  height: 345px;
+  width: 100%;
+}
+
+.e4-team h1{
+  font-family: "Libre Baskerville",sans-serif;
+  font-size: 22px;
+}
+
+.e4-team > div > div{
+  position: relative;
+}
+
+.text-bl{
+  text-align: left;
+  position: absolute;
+  left: 30px;
+  bottom: 10px;
+  color: #fff;
+}

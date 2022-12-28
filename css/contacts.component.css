@@ -1,0 +1,110 @@
+.e1-contact{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+
+.e1-contact > div > div{
+  margin-top: 10px;
+  color: #afafaf;
+  font-size: 22px;
+}
+
+
+.e1-contact h1{
+  font-family: "Libre Baskerville",sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.35em;
+  text-decoration: none;
+  text-transform: none;
+  color: aliceblue;
+}
+
+.e1-contact a{
+  color: #afafaf;
+}
+
+.e1-contact a:hover{
+  color: #fff;
+}
+
+.e2-contact {
+  padding-top: 80px;
+}
+.e2-contact .col-3 > div{
+  border: solid 1px #d7d6d5;
+  padding: 70px 10px;
+  margin-right:  32px;
+}
+
+.e2-contact h1{
+  font-family: "Libre Baskerville",sans-serif;
+  font-size: 32px;
+  color: #242424;
+}
+.e2-contact a{
+  color: #af7f66;
+}
+
+.e2-contact a:hover{
+  text-decoration: underline;
+}
+
+.e3-contact{
+  padding: 80px 180px 0px 180px;
+}
+.e3-contact h1 {
+  font-family: "Libre Baskerville",sans-serif;
+  font-size: 48px;
+  color: #242424;
+}
+
+.e3-contact .col input{
+  width: 100%;
+}
+
+.e3-contact .col:first-child{
+  padding-right: 16px;
+}
+
+.e3-contact textarea,
+.e3-contact .col input{
+  margin-bottom: 16px;
+  padding: 8px 16px;
+
+}
+.e3-contact textarea,
+.e3-contact input{
+  border: 1px solid #e9e8e7;
+  border-radius: none;
+  background-color: #e9e8e7;
+  color: #868686;
+}
+.e3-contact .row{
+  padding-top: 30px;
+}
+.e3-contact p {
+  padding-left: 8px;
+}
+.e3-contact button {
+  padding: 8px 16px;
+  margin-top: 20px;
+  border: 1px solid #868686;
+}
+.e3-contact button:hover {
+  border: 1px solid #242424;
+  background-color: #242424;
+  color: white;
+}
+
+.e3-contact textarea:hover,
+.e3-contact input:hover{
+  border: 1px solid #242424;
+  border-radius: none;
+}
